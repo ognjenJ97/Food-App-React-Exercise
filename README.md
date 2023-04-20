@@ -4,7 +4,7 @@ This project is a food ordering app built using React. It allows users to browse
 Installation
 1. Clone the repository
 2. Run npm install to install dependencies
-3.Run npm start to start the development server
+3. Run npm start to start the development server
 
 Usage
 1. Browse available meals on the homepage
