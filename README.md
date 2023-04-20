@@ -1,4 +1,5 @@
 Food Ordering App
+
 This project is a food ordering app built using React. It allows users to browse available meals, add items to their cart, and place orders. The app uses Firebase Realtime Database for storing meals and orders.
 
 Installation
