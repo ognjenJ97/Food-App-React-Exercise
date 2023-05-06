@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Card from "../UI/Card";
 import classes from "./AvalibleMeals.module.css";
 import MealItem from "./MealItem/MealItem";
-
+    
 const AvalibleMeals = () => {
   const [meals, setMeals] = useState([]);
   const [isLoading, setIsLoading] = useState(true);

@@ -11,12 +11,12 @@ const Checkout = (props) => {
         city: true,
         postal: true
 });
-
+   
   const nameInputRef = useRef();
   const streetInputRef = useRef();
   const postalInputRef = useRef();
   const cityInputRef = useRef();
-
+    
   const confirmHandler = (event) => {
     event.preventDefault();
     const enteredName = nameInputRef.current.value;
@@ -43,7 +43,7 @@ const Checkout = (props) => {
         return;
     } 
 
-
+     
     props.onConfirm({
         name: enteredName,
         street: enteredStreet,
